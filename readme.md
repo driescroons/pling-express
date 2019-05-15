@@ -10,9 +10,7 @@ Implemeting it is quite easy. First install it.
 yarn add pling
 ```
 
-### 🤖 Node
-
-Importing the package
+Import the package
 
 ```
 const notify = require("pling");
