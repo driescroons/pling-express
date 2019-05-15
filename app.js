@@ -6,8 +6,7 @@ require("express-async-errors");
 const logger = require("morgan");
 const bodyParser = require("body-parser");
 
-// TODO: replace with npm package
-const notify = require("../pling-package/lib/index");
+const notify = require("pling");
 
 const app = express();
 
