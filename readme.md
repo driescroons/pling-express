@@ -10,13 +10,13 @@ Implemeting it is quite easy. First install it.
 yarn add pling
 ```
 
-Import the package
+Import the package:
 
 ```
 const notify = require("pling");
 ```
 
-Copy and paste the following where you'd like to log something.
+Copy and paste the following where you'd like to log something:
 
 ```
 await notify({
@@ -26,7 +26,7 @@ await notify({
 });
 ```
 
-Please make sure to set your **PLING_API_KEY** environment variable. In Node, you can do so by doing the following.
+Please make sure to set your **PLING_API_KEY** environment variable. In Node, you can do so by doing the following:
 
 ```
 process.env[PLING_API_KEY] = "YOUR_API_KEY";
